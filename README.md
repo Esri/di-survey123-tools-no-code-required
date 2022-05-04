@@ -1,4 +1,4 @@
-# Survey123 tools using ArcGIS for Data Interoperability
+# Automating Survey123 workflows using ArcGIS for Data Interoperability
 Title 
 This repo is for ... <br/>
 
