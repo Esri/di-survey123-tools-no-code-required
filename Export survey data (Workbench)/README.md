@@ -1,6 +1,8 @@
 # Exporting Survey123 survey data with Data Interoperability
 
-Survey123 is a very popular app in the ESRI stack. Its easy to deploy and use to collect data because of its rich features. However, there are times that the data will have to be exported to other systems or even for archiving purposes. Thus, it is quite common for data owners to export their survey data and shape or transform  the data  according to their business needs. Often, their surveys have different attachments and media that have been collected by the field user.   <br/>
+Survey123 is a very popular app in the ESRI stack. Its easy to deploy and use to collect data because of its rich features. However, there are user scenarios where collected data needs to be exported to other systems or even for archiving purposes. Thus, it is quite common for data owners to export their survey data and transform the data  according to their business needs. Often, their surveys have different attachments and media that have been collected by the field user. <br/>
+
+The Survey123 team has written an [Export Task solution using python.](https://github.com/Esri/Survey123-tools/blob/main/Export_survey_data_with_attachments/README.md) A no-code solution is written below for users who prefer this approach. 
 
 ## Solution details
 The ETL tool created for this workflow is authored in its simplest form. It reads all the features of a Survey123 feature layer using the [AGOL Feature Service layer reader](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_ReadersWriters/arcgisonlinefeatures/arcgisonlinefeatures.htm). It exposes the feature attachments as a list and explodes this list into attachment features linked to the original survey's globalID using the [ListExploder](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/listexploder.htm) transformer. <br/>
@@ -82,9 +84,9 @@ Below are links to essential references used in the blogs.
 
 * [Spatial ETL Tool (Doc)](https://pro.arcgis.com/en/pro-app/latest/help/data/data-interoperability/spatial-etl-tools.htm)
 * Related references:<br/>
-    1. [Ontario511](https://pm.maps.arcgis.com/home/item.html?id=4ec1d2420089451bb173e90ce01e2e0a)<br/>
-    2. [Import Building GeoJSON](https://pm.maps.arcgis.com/home/item.html?id=9da0f8ae5fee45aca11bf77f712884c8)<br/>
-    3. [Learn JSON](https://www.youtube.com/watch?v=iiADhChRriM)<br/>
+    1. [](https://pm.maps.arcgis.com/home/item.html?id=4ec1d2420089451bb173e90ce01e2e0a)<br/>
+    2. [](https://pm.maps.arcgis.com/home/item.html?id=9da0f8ae5fee45aca11bf77f712884c8)<br/>
+    3. [](https://www.youtube.com/watch?v=iiADhChRriM)<br/>
 <br/>
 
 

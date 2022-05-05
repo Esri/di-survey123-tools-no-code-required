@@ -49,7 +49,7 @@ Find a bug or want to request a new feature?  Please let us know by submitting a
 Esri welcomes contributions from anyone and everyone. Please see our [guidelines for contributing](https://github.com/esri/contributing).
 
 ## Licensing
-Copyright 2021 Esri
+Copyright 2022 Esri
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -65,5 +65,4 @@ limitations under the License.
 
 A copy of the license is available in the repository's [license.txt](https://github.com/salvaleonrp/di-data-driven-electric-utility-export-subnetwork/blob/main/license.txt) file.
 
-[](Esri Tags: Data Interoperability for ArcGIS Pro)
-[](Esri Tags: Utility Network)
+[](Esri Tags: ArcGIS Data Interoperability for Pro)
