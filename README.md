@@ -2,20 +2,20 @@
 
 ## Purpose:
 
-This repo is to show tools built with Data Interoperability for most common patterns of managing Survey123 forms and their collected data. <br/>
+This repo is to show tools built with Data Interoperability for most common patterns of managing data collected with Survey123 forms. <br/>
 
 
-## Four ways to build DI solutions for Survey123 automation
+## Four ways to build DI tools for Survey123 automation
 
 The solutions that will be published in this repo will be built using any of the following DI features. The feature to be used mostly depends on the persona of the tool user. The frequency of use would be another consideration. Other considerations include integration with Pro or Server. 
 
-* Workbench file (FMW) 
+* Workbench file (FMW) - most data admin or owners will ikely build a tool using Data Interoperability's Workbench file, also known as FME Desktop. The workbench file (FMW) can be stored in the file system and used without launching Pro, as long as the extension license is assigned to the user.  
 
-* Spatial ETL Tool (GP Tool)
+* Spatial ETL Tool (GP Tool) - this feature is launched from Pro. It starts as a GP tool, and authored from he Workbench app. This feature is best for tools that are frequently run by end users.
 
-* Web Tools (GP Service)
+* Web Tools (GP Service) This feature is a published Spatial ETL tool run from Pro or a browser. Since it's a GP service, its RES end point can be tightly integrated with web apps. This tool is best for end users and inegration with other web solutions.
 
-* Quick Tools (DI Toolbox)
+* Quick Tools (DI Toolbox) 
 
 
 
