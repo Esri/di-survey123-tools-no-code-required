@@ -1,4 +1,4 @@
-# Automating Survey123 data workflows using ArcGIS for Data Interoperability
+# Survey123 data workflows using ArcGIS for Data Interoperability
 
 ## Purpose:
 
