@@ -1,38 +1,43 @@
 # Automating Survey123 data workflows using ArcGIS for Data Interoperability
-Title 
-This repo is for ... <br/>
+
+## Purpose:
+
+This repo is to show tools built with Data Interoperability for most common patterns of managing Survey123 forms and their collected data. <br/>
 
 
-## ETL Tools versus Web Tools
-* 
+## Four ways to build DI solutions for Survey123 automation
 
+The solutions that will be published in this repo will be built using any of the following DI features. The feature to be used mostly depends on the persona of the tool user. The frequency of use would be another consideration. Other considerations include integration with Pro or Server. 
 
-## Instructions
+* Workbench file (FMW) 
 
-1. 
-2. 
+* Spatial ETL Tool (GP Tool)
+
+* Web Tools (GP Service)
+
+* Quick Tools (DI Toolbox)
+
 
 
 ## Requirements
 
 * ArcGIS Pro 2.9 or  higher
 * ArcGIS Server 10.9.1
-* Data Interoperability for ArcGIS Pro 2.9 or higher
-* Data Interoperability for Server 10.9.1 or higher
+* ArcGIS Data Interoperability for Pro 2.9 or higher
+* ArcGIS Data Interoperability for Server 10.9.1 or higher
 
 
 ## Resources
 
 Below are links to essential references used in the blogs.
 
-* [Utility Network Upgrade History (Doc)](https://pro.arcgis.com/en/pro-app/latest/help/data/utility-network/utility-network-upgrade-history.htm)<br/>
-* JSON tutorial references:<br/>
+
+* [Spatial ETL Tool (Doc)](https://pro.arcgis.com/en/pro-app/latest/help/data/data-interoperability/spatial-etl-tools.htm)
+* Data Interop references:<br/>
     1. [Ontario511](https://pm.maps.arcgis.com/home/item.html?id=4ec1d2420089451bb173e90ce01e2e0a)<br/>
     2. [Import Building GeoJSON](https://pm.maps.arcgis.com/home/item.html?id=9da0f8ae5fee45aca11bf77f712884c8)<br/>
     3. [Learn JSON](https://www.youtube.com/watch?v=iiADhChRriM)<br/>
-
-* [Spatial ETL Tool (Doc)](https://pro.arcgis.com/en/pro-app/latest/help/data/data-interoperability/spatial-etl-tools.htm)
-* [Automate yor ETL Processes blog](https://community.esri.com/t5/arcgis-data-interoperability-blog/automate-your-etl-processes-on-a-schedule-two-ways/ba-p/883616)<br/>
+<br/>
 
 
 ## Issues

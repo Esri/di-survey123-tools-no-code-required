@@ -67,17 +67,7 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
 9. With File Explorer open your target folder.
 
-10. Click Run, and watch as your jpeg are added into the target folder.
-
-
-
-
-
-
-
-
-
-
+10. Click Run, and watch as your attachments are added into the target folder.
 
 ## Requirements
 
@@ -89,14 +79,13 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
 Below are links to essential references used in the blogs.
 
-* [Utility Network Upgrade History (Doc)](https://pro.arcgis.com/en/pro-app/latest/help/data/utility-network/utility-network-upgrade-history.htm)<br/>
+
+* [Spatial ETL Tool (Doc)](https://pro.arcgis.com/en/pro-app/latest/help/data/data-interoperability/spatial-etl-tools.htm)
 * JSON tutorial references:<br/>
     1. [Ontario511](https://pm.maps.arcgis.com/home/item.html?id=4ec1d2420089451bb173e90ce01e2e0a)<br/>
     2. [Import Building GeoJSON](https://pm.maps.arcgis.com/home/item.html?id=9da0f8ae5fee45aca11bf77f712884c8)<br/>
     3. [Learn JSON](https://www.youtube.com/watch?v=iiADhChRriM)<br/>
-
-* [Spatial ETL Tool (Doc)](https://pro.arcgis.com/en/pro-app/latest/help/data/data-interoperability/spatial-etl-tools.htm)
-* [Automate yor ETL Processes blog](https://community.esri.com/t5/arcgis-data-interoperability-blog/automate-your-etl-processes-on-a-schedule-two-ways/ba-p/883616)<br/>
+<br/>
 
 
 ## Issues
@@ -124,5 +113,5 @@ limitations under the License.
 
 A copy of the license is available in the repository's [license.txt](https://github.com/salvaleonrp/di-data-driven-electric-utility-export-subnetwork/blob/main/license.txt) file.
 
-[](Esri Tags: Data Interoperability for ArcGIS Pro)
-[](Esri Tags: Utility Network)
+[](Esri Tags: ArcGIS Data Interoperability for Pro)
+[](Esri Tags: Survey123)
