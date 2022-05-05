@@ -23,7 +23,7 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 ## Instructions
 
     Prerequisites:
-    - A Survey123 survey and collected data with image attachments and annotations. For this blog the Survey123 Connect sample Images and Annotation survey was used. This sample survey is shared [publicly](https://survey123.arcgis.com/share/1a4a4e91484d4175b340b7f8b9a1dfa3?portalUrl=https://PM.maps.arcgis.com). You are welcome to add to the survey.
+    - A Survey123 survey and collected data with image attachments and annotations. For this blog the Survey123 Connect sample Images and Annotation survey was used. A link to the sample survey used is shared inthe references below.  You are welcome to add to the survey.
     - An AGOL Organizational account.
     - Configure a Web Connection of your AGOL account in the Tools Options of Data Interoperability. 
     - Identify the destination folder for your attachments
@@ -74,7 +74,8 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 ## Requirements
 
 * ArcGIS Pro 2.9 or higher
-* Data Interoperability for ArcGIS Pro 2.9 or e
+* Data Interoperability for ArcGIS Pro 2.9 or higher
+* [Survey123 form used](https://pm.maps.arcgis.com/home/item.html?id=1a4a4e91484d4175b340b7f8b9a1dfa3) for the sample solution or you own service with collected data and attachments. 
 
 
 ## Resources
@@ -86,7 +87,7 @@ Below are links to essential references used in the blogs.
 * Related references:<br/>
     1. [](https://pm.maps.arcgis.com/home/item.html?id=4ec1d2420089451bb173e90ce01e2e0a)<br/>
     2. [](https://pm.maps.arcgis.com/home/item.html?id=9da0f8ae5fee45aca11bf77f712884c8)<br/>
-    3. [](https://www.youtube.com/watch?v=iiADhChRriM)<br/>
+     [](https://www.youtube.com/watch?v=iiADhChRriM)<br/>
 <br/>
 
 
