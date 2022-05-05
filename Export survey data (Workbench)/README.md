@@ -7,7 +7,7 @@ The Survey123 team has written an [Export Task solution using python.](https://g
 ## Solution details
 The ETL tool created for this workflow is authored in its simplest form. It reads all the features of a Survey123 feature layer using the [AGOL Feature Service layer reader](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_ReadersWriters/arcgisonlinefeatures/arcgisonlinefeatures.htm). It exposes the feature attachments as a list and explodes this list into attachment features linked to the original survey's ***arcgisonline_globalid*** using the [ListExploder](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/listexploder.htm) transformer. <br/>
 
-The attribute table of the attachment features look similar to the screenshot below. </br>
+The attribute table of the attachment features as read by the AGOL feature reader look similar to the screenshot below. </br>
 
 ![attribute_table](https://user-images.githubusercontent.com/87094963/166913879-9e67bd3c-8183-4a1d-9d0f-31f7259ecdd3.png)
 
@@ -23,13 +23,13 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 ## Instructions
 
     Prerequisites:
-    - A Survey123 survey and collected data with image attachments and annotations. For this blog the Survey123 Connect sample Images and Annotation survey was used. A link to the sample survey used is shared inthe references below.  You are welcome to add to the survey.
+    - A Survey123 survey and collected data with image attachments and annotations. For this blog the Survey123 Connect sample Images and Annotation survey was used. A link to the sample survey used is shared in the references below.  You are welcome to add to the survey.
     - An AGOL Organizational account.
     - Configure a Web Connection of your AGOL account in the Tools Options of Data Interoperability. 
     - Identify the destination folder for your attachments
 
 
-***Warning:*** When viewing the workbench or FMW file in  github it appears as a text file. Do not modify or edit this text file unless you are absolutely sure that you are very comfortable in making the changes.     
+    
 
 
 1. Download and unzip the S123DITool_ExportAttachments.zip  file from this repo folder.
@@ -84,15 +84,13 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
 ## Resources
 
-Below are links to essential references used in the blogs.
+Below are links to additional references used in this tool.
 
+1. [Survey123 Media questions](https://doc.arcgis.com/en/survey123/desktop/create-surveys/xlsformmedia.htm)<br/>
+2. Enhancement solutions for storing the attachment from AGOL into another GDB: </br> 
+        [Code Free Web Integration, With a Touch of ArcPy](https://community.esri.com/t5/arcgis-data-interoperability-blog/code-free-web-integration-with-a-touch-of-arcpy/ba-p/883683)<br/>
+        [Safe Community question](https://community.safe.com/s/question/0D54Q000080hay7SAA/writing-portal-for-arcgis-or-agol-image-attachments-to-sde-relationship-class-ok-but-image-is-not-valid)<br/>
 
-* [Spatial ETL Tool (Doc)](https://pro.arcgis.com/en/pro-app/latest/help/data/data-interoperability/spatial-etl-tools.htm)
-* Related references:<br/>
-    1. [](https://pm.maps.arcgis.com/home/item.html?id=4ec1d2420089451bb173e90ce01e2e0a)<br/>
-    2. [](https://pm.maps.arcgis.com/home/item.html?id=9da0f8ae5fee45aca11bf77f712884c8)<br/>
-     [](https://www.youtube.com/watch?v=iiADhChRriM)<br/>
-<br/>
 
 
 ## Issues

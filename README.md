@@ -26,19 +26,19 @@ The solutions that will be published in this repo will be built using any of the
 * ArcGIS Data Interoperability for Pro 2.9 or higher
 * ArcGIS Data Interoperability for Server 10.9.1 or higher
 
+***Warning:*** When viewing the workbench or FMW file in  github it appears as a text file. Do not modify or edit this text file unless you are absolutely sure that you are very comfortable in making the changes. 
 
 ## Resources
 
 Below are links to essential references used in the blogs.
 
-
-* [Spatial ETL Tool (Doc)](https://pro.arcgis.com/en/pro-app/latest/help/data/data-interoperability/spatial-etl-tools.htm)
-* Related references:<br/>
-    1. [Ontario511](https://pm.maps.arcgis.com/home/item.html?id=4ec1d2420089451bb173e90ce01e2e0a)<br/>
-    2. [Import Building GeoJSON](https://pm.maps.arcgis.com/home/item.html?id=9da0f8ae5fee45aca11bf77f712884c8)<br/>
-    3. [Learn JSON](https://www.youtube.com/watch?v=iiADhChRriM)<br/>
+* ESRI Based workflows:<br/>
+    1. [Event-Driven Integrations with Data Interoperability](https://community.esri.com/t5/arcgis-data-interoperability-blog/event-driven-integrations-with-data/ba-p/883772)<br/>
+    2. [Using Data Interoperability to sync data to ArcGIS Online](https://community.esri.com/t5/arcgis-data-interoperability-blog/using-data-interoperability-to-sync-data-to-arcgis/ba-p/903871)<br/>
+* Safe's FME Server based Survey123 workflows
+    1. [Automating Workflows from Survey123 to ArcGIS using FME Server](https://community.safe.com/s/article/automating-workflows-from-survey123-to-arcgis-usin)<br/>
+    
 <br/>
-
 
 ## Issues
 
