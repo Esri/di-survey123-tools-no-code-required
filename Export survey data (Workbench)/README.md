@@ -81,7 +81,7 @@ Below are links to essential references used in the blogs.
 
 
 * [Spatial ETL Tool (Doc)](https://pro.arcgis.com/en/pro-app/latest/help/data/data-interoperability/spatial-etl-tools.htm)
-* JSON tutorial references:<br/>
+* Related references:<br/>
     1. [Ontario511](https://pm.maps.arcgis.com/home/item.html?id=4ec1d2420089451bb173e90ce01e2e0a)<br/>
     2. [Import Building GeoJSON](https://pm.maps.arcgis.com/home/item.html?id=9da0f8ae5fee45aca11bf77f712884c8)<br/>
     3. [Learn JSON](https://www.youtube.com/watch?v=iiADhChRriM)<br/>
