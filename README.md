@@ -9,13 +9,13 @@ This repo is to show tools built with Data Interoperability for most common patt
 
 The solutions that will be published in this repo will be built using any of the following DI features. The feature to be used mostly depends on the persona of the tool user. The frequency of use would be another consideration. Other considerations include integration with Pro or Server. 
 
-* Workbench file (FMW) - most data admin or owners will ikely build a tool using Data Interoperability's Workbench file, also known as FME Desktop. The workbench file (FMW) can be stored in the file system and used without launching Pro, as long as the extension license is assigned to the user.  
+* Workbench file (FMW) - most data admin or data owners will build a tool using Data Interoperability's Workbench app, also known as FME Desktop. The authored workbench file (FMW) can be stored in the file system and used without launching Pro, as long as the DI extension license is assigned to the user. A workbench file can also be executed through python or command line for automation purposes.
 
-* Spatial ETL Tool (GP Tool) - this feature is launched from Pro. It starts as a GP tool, and authored from he Workbench app. This feature is best for tools that are frequently run by end users.
+* Spatial ETL Tool (GP Tool) - this feature is launched from Pro. It starts as a GP tool, and authored from the Workbench app. This feature is best for tools that are frequently run by end users or through Pro's scheduled task.
 
-* Web Tools (GP Service) This feature is a published Spatial ETL tool run from Pro or a browser. Since it's a GP service, its RES end point can be tightly integrated with web apps. This tool is best for end users and inegration with other web solutions.
+* Web Tools (GP Service) This feature is a published Spatial ETL tool run from Pro or a browser. Since it's a GP service, its RES end point can be tightly integrated with web apps. This tool is best for end users and inegration with other web solutions. Currently, there are no triggers or scheduling for web tool solutions.
 
-* Quick Tools (DI Toolbox) 
+* Quick Tools (DI Toolbox) This feature is for simple workflow that uses the most common ESRI data formats.  There ae two quick tools, one tool for Export and another one for Import.  This feature is very limited in use and capability.
 
 
 

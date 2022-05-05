@@ -28,8 +28,12 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
     - Configure a Web Connection of your AGOL account in the Tools Options of Data Interoperability. 
     - Identify the destination folder for your attachments
 
-1. Download and open the workspace file from this repo.
-2. Delete the AGOL reader. If you are new to Data Interop, you can disable the connector between the reader and the List Exploder.
+
+***Warning:*** When viewing the workbench or FMW file in  github it appears as a text file. Do not modify or edit this text file unless you are absolutely sure that you are very comfortable in making the changes.     
+
+
+1. Download and unzip the S123DITool_ExportAttachments.zip  file from this repo folder.
+2. Delete the AGOL reader. If you are new to Data Interop, you can disable the connector between the reader and the List Exploder initially.
 3. On your canvass begin typing AGOL and select the ESRI ArcGIS Online (AGOL) Feature Service Reader.
 4. You will be prompted with the Add reader dialog.
 
