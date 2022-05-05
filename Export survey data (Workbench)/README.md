@@ -5,10 +5,9 @@ Survey123 is a very popular app in the ESRI stack. Its easy to deploy and use to
 ## Solution details
 The ETL tool created for this workflow is authored in its simplest form. It reads all the features of a Survey123 feature layer using the [AGOL Feature Service layer reader](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_ReadersWriters/arcgisonlinefeatures/arcgisonlinefeatures.htm). It exposes the feature attachments as a list and explodes this list into attachment features linked to the original survey's globalID using the [ListExploder](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/listexploder.htm) transformer. <br/>
 
-The attribute able of the attachment features look similar to the screenshot below. </br>
+The attribute table of the attachment features look similar to the screenshot below. </br>
 
-
-
+![attribute_table](https://user-images.githubusercontent.com/87094963/166913879-9e67bd3c-8183-4a1d-9d0f-31f7259ecdd3.png)
 
 The image attachment is stored as a blob on the survey data attachment table. Once exploded, the attribute column data (in blob type) is written as a JPEG file by the [AtributeFileWriter](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/attributefilewriter.htm) transformer, using the name attribute value as the jpeg filename <br/>
 
@@ -109,7 +108,7 @@ Find a bug or want to request a new feature?  Please let us know by submitting a
 Esri welcomes contributions from anyone and everyone. Please see our [guidelines for contributing](https://github.com/esri/contributing).
 
 ## Licensing
-Copyright 2021 Esri
+Copyright 2022 Esri
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
