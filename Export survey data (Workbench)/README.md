@@ -28,7 +28,50 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
     - Identify the destination folder for your attachments
 
 1. Download and open the workspace file from this repo.
-2. New DI users: Delete the connection between the AGOL reader and the ListExploder transformer. Advanced DI users: go to the Readers menu and select Import 
+2. Delete the AGOL reader. If you are new to Data Interop, you can disable the connector between the reader and the List Exploder.
+3. On your canvass begin typing AGOL and select the ESRI ArcGIS Online (AGOL) Feature Service Reader.
+4. You will be prompted with the Add reader dialog.
+
+        Click on Parameters, select the Web Connection that you created above.
+
+        Click on the ellipsis next to the Feature service textbox, then browse to your feature service, select your service and clck OK.
+
+        Back to the Feature Service parameter dialog, click on Layers ellipsis and select your Survey123 form's feature layer.
+
+        (Optional) Select Yes on the Resolve Domains drop down if you used the Choice questions in your survey.
+
+        Click Ok twice.
+
+5. Connect the AGOL layer feature type to the List Exploder
+
+6. Now that your feature type is on your canvass, we will configure it for our transformation.
+
+        Click on the cog wheel of the feature type to open its properties dialog.
+
+        On the Parameters tab, select Yes on the Include Attachments drop down.
+
+        On the Format Atributes tab, check all attributes that begin with arcgisonline. If you preferm, use the filter box at the bottom and Select All. 
+
+        This feature type is now configured. If you left this template's original reader, you can delete that now.
+
+7. Now we will configure the output in the AttributeFilterWriter.
+
+        Click on the cog wheel to open its parameters dialog.
+
+        On the Target Filename parameter textbox, type over the string "c:\temp\jpeg\" with your selected destination.
+
+        Check if the Target File Encoding parameter is Binary(fme-binary). 
+
+        Click OK.
+
+8. We will leave the Inspector unchanged for this workflow.
+
+9. With File Explorer open your target folder.
+
+10. Click Run, and watch as your jpeg are added into the target folder.
+
+
+
 
 
 
