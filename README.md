@@ -9,7 +9,7 @@ This repo is to show tools built with Data Interoperability for most common patt
 
 The solutions that will be published in this repo will be built using any of the following DI features. The feature to be used mostly depends on the persona of the tool user. The frequency of use would be another consideration. Other considerations include integration with Pro or Server. 
 
-* Workbench file (FMW) - most data admin or data owners will build a tool using Data Interoperability's Workbench app, also known as FME Desktop. The authored workbench file (FMW) can be stored in the file system and used without launching Pro, as long as the DI extension license is assigned to the user. A workbench file can also be executed through python or command line for automation purposes.
+* Workbench file (FMW) - most data admin or data owners will build a tool using Data Interoperability's Workbench app, a cloned version to FME Desktop. The authored workbench file (FMW) can be stored in the file system and used without launching Pro, as long as the DI extension license is assigned to the user. A workbench file can also be executed through python or command line for automation purposes.
 
 * Spatial ETL Tool (GP Tool) - this feature is launched from Pro. It starts as a GP tool, and authored from the Workbench app. This feature is best for tools that are frequently run by end users or through Pro's scheduled task.
 
