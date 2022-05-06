@@ -5,7 +5,7 @@
 This repo is to show tools built with Data Interoperability for most common patterns of managing data collected with Survey123 forms. <br/>
 
 
-## Four ways to build DI tools for Survey123 automation
+## Four ways to build DI tools
 
 The solutions that will be published in this repo will be built using any of the following DI features. The feature to be used mostly depends on the persona of the tool user. The frequency of use would be another consideration. Other considerations include integration with Pro or Server. 
 
