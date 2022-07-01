@@ -7,7 +7,7 @@ This repo is to show tools built with Data Interoperability for most common patt
 
 ## Four ways to build DI tools
 
-The solutions that will be published in this repo will be built using any of the following DI features. The feature to be used mostly depends on the persona of the tool user. The frequency of use would be another consideration. Other considerations include integration with Pro or Server. 
+The solutions that will be published in this repo will be built using any of the following DI features. The feature to be used mostly depends on the persona of the tool user. The frequency of use would be another consideration. Other considerations include deployment with Pro, Enterprise or even FME Server. 
 
 * Workbench file (FMW) - most data admin or data owners will build a tool using Data Interoperability's Workbench app, a cloned version to FME Desktop. The authored workbench file (FMW) can be stored in the file system and used without launching Pro, as long as the DI extension license is assigned to the user. A workbench file can also be executed through python or command line for automation purposes.
 
