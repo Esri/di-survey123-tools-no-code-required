@@ -61,7 +61,7 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
         On the Format Attributes tab, check if all attributes that begin with arcgisonline_ are exposed. If you prefer, use the filter box at the bottom and Select All. 
 
-        This feature type is now configured. If you left this template's original reader, you can delete that now.
+        This feature type is now configured. If you kept the template's original reader, you can delete that now.
 
 ![image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/13187b27-ab0c-4a0c-ae08-d4c2b6278af6)
 
