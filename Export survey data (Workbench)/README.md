@@ -43,23 +43,29 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
         Back to the Feature Service parameter dialog, click on Layers ellipsis and select your Survey123 form's feature layer.
 
-        (Optional) Select Yes on the Resolve Domains drop down if you used the Choice questions in your survey.
+        Click on Schema Attributes and select the Attributes to Expose as shown in the picture below.
+
+        (Optional) Select Yes on the Resolve Domains drop-down if you used the Choice questions in your survey.
 
         Click Ok twice.
 
-5. Connect the AGOL layer feature type to the List Exploder
+![image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/b56b419e-3ee9-4667-9319-3edacf2ed54f)
 
-6. Now that your feature type is on your canvass, we will configure it for our transformation.
+6. Connect the AGOL layer feature type to the List Exploder
+
+7. Now that your feature type is on your canvass, we will configure it for our transformation.
 
         Click on the cog wheel of the feature type to open its properties dialog.
 
-        On the Parameters tab, select Yes on the Include Attachments drop down.
+        On the Parameters tab, select Yes on the Include Attachments drop-down, as shown in the picture below.
 
-        On the Format Atributes tab, check all attributes that begin with arcgisonline. If you preferm, use the filter box at the bottom and Select All. 
+        On the Format Attributes tab, check if all attributes that begin with arcgisonline_ are exposed. If you prefer, use the filter box at the bottom and Select All. 
 
         This feature type is now configured. If you left this template's original reader, you can delete that now.
 
-7. Now we will configure the output in the AttributeFilterWriter.
+![image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/13187b27-ab0c-4a0c-ae08-d4c2b6278af6)
+
+8. Now we will configure the output in the AttributeFilterWriter.
 
         Click on the cog wheel to open its parameters dialog.
 
@@ -69,11 +75,11 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
         Click OK.
 
-8. We will leave the Inspector unchanged for this workflow.
+9. We will leave the Inspector unchanged for this workflow.
 
-9. With File Explorer open your target folder.
+10. With File Explorer open your target folder.
 
-10. Click Run, and watch as your attachments are added into the target folder.
+11. Click Run, and watch as your attachments are added into the target folder.
 
 ## Requirements
 
@@ -96,9 +102,12 @@ Below are links to related resources to this workflow.
 
 
 
-## Issues
-
+## Issue/s
 Find a bug or want to request a new feature?  Please let us know by submitting an issue.
+
+1. In the Schema list attribute of the feature service as shown in Instructions, item 5 above, notice that the arcgisonline_attachment{}.globalid attribute is exposed but the translation does not display it. This is a known bug and is reported in FMEENGINE-74184. For reference see the comments section of this [Question]([url](https://community.safe.com/s/question/0D54Q00009PK7llSAD/read-arcgis-online-attachments-and-maintain-globalids-for-both-features-and-attachments)) found in the Safe Community web page.
+
+
 
 ## Contributing
 
