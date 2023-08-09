@@ -41,7 +41,7 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
         e. Click Ok twice.
 
-![image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/b56b419e-3ee9-4667-9319-3edacf2ed54f)
+[image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/b56b419e-3ee9-4667-9319-3edacf2ed54f)
 
 6. Connect the AGOL layer feature type to the List Exploder
 
@@ -55,7 +55,7 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
         d. This feature type is now configured. If you kept the template's original reader, you can delete that now.
 
-![image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/13187b27-ab0c-4a0c-ae08-d4c2b6278af6)
+[image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/13187b27-ab0c-4a0c-ae08-d4c2b6278af6)
 
 8. Now we will configure the output in the AttributeFilterWriter.
 
@@ -67,11 +67,11 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
         d. Click OK.
 
-9. We will leave the Inspector unchanged for this workflow.
+9. Leave the Inspector unchanged for this workflow.
 
-10. With File Explorer open your target folder.
+10. Using Windows Explorer navigate to your destination folder so you can see the photos written when you run the workspace in the final step.
 
-11. Click Run, and watch as your attachments are added into the target folder.
+11. Click Run, and watch as your attachments are written into the target folder.
 
 ## Requirements
 
