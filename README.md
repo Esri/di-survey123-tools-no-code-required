@@ -15,7 +15,7 @@ A python solution is available [Export Task solution using python](https://githu
 3. Change detection workflow for responses and attachments - coming soon
 
 
-If you're new to Data Interoperability, please keep reading below.
+[!NOTE]If you're new to Data Interoperability, please keep reading below.
 
 ## Four ways to build DI solutions
 
