@@ -18,7 +18,7 @@ A python solution is available [Export Task solution using python](https://githu
 > [!NOTE]
 > New to Data Interoperability, please keep reading below.
 
-### Four ways to build DI solutions
+### Four ways to build Data Interoperability solutions
 
 The solutions that will be published in this repo will be built using any of the following DI features. The feature to be used mostly depends on the persona of the tool user. The frequency of use would be another consideration. Other considerations include deployment with Pro, Enterprise or even safe Software's FME Server. 
 
@@ -32,7 +32,7 @@ The solutions that will be published in this repo will be built using any of the
 
 
 > [!WARNING] 
-> Since the FMW file in git appears as a text file, they will always be made available as zipped fmw or fmwt format.  
+> Since the FMW file in git appears as a text file, they will always be made available as zipped fmw or fmwt file format.  
 
 ## Resources
 
