@@ -16,7 +16,8 @@ Below is a screenshot of the solution. <br/>
 The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/inspeector.htm) transformer is a placeholder for any other output formats that the user may want to add to the workspace, whether its an Excel writer, HTML table, a geodatabase, Enterprise or AGOL feature layers, JSON or any of [400 plus supported formats of Data Interoperabilty](https://pro.arcgis.com/en/pro-app/latest/help/data/data-interoperability/supported-formats-with-the-data-interoperability-extension.htm).<br/>
 
 
-> [!NOTE] Prerequisites:
+> [!NOTE] 
+> Prerequisites
 > - A Survey123 feature service with image attachments. A [sample feature service](https://pm.maps.arcgis.com/home/item.html?id=1a4a4e91484d4175b340b7f8b9a1dfa3) is publicly >available for this blog. You are welcome to submit to the survey.
 > - An AGOL Organizational account. (optional)
 > - Configure a Web Connection of your AGOL account in the Tools Options menu of the Workbench app. (optional)
