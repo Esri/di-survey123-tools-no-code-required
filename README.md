@@ -10,8 +10,9 @@ A python solution is available [Export Task solution using python](https://githu
 
 
 ## Use Cases:
-1. [Export Survey attachments into Windows folder (fmw)](https://github.com/salvaleonrp/survey123-tools-no-code-required/tree/main/Use%20case%201%20-%20Export%20survey%20attachment%20to%20windows%20folder(Workbench))<br/>
-2. [Export Survey responses and attachment infomation into an Excel report (fmw)](https://github.com/salvaleonrp/survey123-tools-no-code-required/tree/main/Use%20case%202%20-%20Export%20survey%20responses%20to%20Excel%20report%20(Workbench))
+1. [Export Survey attachments into Windows folder (fmw)](Use case 1 - Export survey attachment to windows folder(Workbench)
+/README.md)<br/>
+2. [Export Survey responses and attachment infomation into an Excel report (fmw)](Use case 2 - Export survey responses to Excel report (Workbench)/README.md)
 3. Change detection workflow for responses and attachments - coming soon
 
 
