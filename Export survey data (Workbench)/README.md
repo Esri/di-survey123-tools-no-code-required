@@ -1,13 +1,13 @@
-# Exporting Survey123 survey data with Data Interoperability (Workbench)
+# Exporting Survey123 attachment to Windows folder (Workbench)
 
-Survey123 is a very popular app in the ESRI stack. Its easy to deploy and use to collect data because of its rich features. However, there are user scenarios where collected data needs to be exported to other systems or even for archiving purposes. Thus, it is quite common for data owners to export their survey data and transform the data  according to their business needs. Often, their surveys have different attachments and media that have been collected by the field user. <br/>
+Survey123 is a very popular app in the ArcGIS Platform. It's easy to deploy and used to collect data because of its rich features. However, there are user scenarios where collected data needs to be exported to other systems or even for archiving purposes. Thus, it is quite common for data owners to export their survey data and transform the data  according to their business needs. Often, their surveys have different attachments and media that have been collected by the field user. <br/>
 
 The Survey123 team has written an [Export Task solution using python.](https://github.com/Esri/Survey123-tools/blob/main/Export_survey_data_with_attachments/README.md) A no-code solution is written below for users who prefer this approach. 
 
 ## Solution details
-The ETL tool created for this workflow is authored in its simplest form. It reads all the features of a Survey123 feature layer using the [AGOL Feature Service layer reader](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_ReadersWriters/arcgisonlinefeatures/arcgisonlinefeatures.htm). It exposes the feature attachments as a list and explodes this list into attachment features linked to the original survey's ***arcgisonline_globalid*** using the [ListExploder](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/listexploder.htm) transformer. <br/>
+The workbench file created for this workflow is authored in its simplest form. It reads all the features of a Survey123 feature layer using the [AGOL Feature Service layer reader](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_ReadersWriters/arcgisonlinefeatures/arcgisonlinefeatures.htm). It exposes the feature attachments as a list and explodes this list into attachment features linked to the original survey's ***arcgisonline_globalid*** using the [ListExploder](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/listexploder.htm) transformer. <br/>
 
-The attribute table of the attachment features as read by the AGOL feature reader look similar to the screenshot below. </br>
+The attribute table of the attachment features is read by the AGOL feature reader and looks similar to the screenshot below. </br>
 
 ![attribute_table](https://user-images.githubusercontent.com/87094963/166913879-9e67bd3c-8183-4a1d-9d0f-31f7259ecdd3.png)
 
@@ -27,10 +27,6 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
     - An AGOL Organizational account.
     - Configure a Web Connection of your AGOL account in the Tools Options of Data Interoperability. 
     - Identify the destination folder for your attachments
-
-
-    
-
 
 1. Download and unzip the S123DITool_ExportAttachments.zip  file from this repo folder.
 2. Delete the AGOL reader. If you are new to Data Interop, you can disable the connector between the reader and the List Exploder initially.
