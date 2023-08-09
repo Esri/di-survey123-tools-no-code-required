@@ -17,8 +17,8 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
 
 > [!NOTE] 
-> Prerequisites
-> - A Survey123 feature service with image attachments. A [sample feature service](https://pm.maps.arcgis.com/home/item.html?id=1a4a4e91484d4175b340b7f8b9a1dfa3) is publicly >available for this blog. You are welcome to submit to the survey.
+> **Prerequisites**
+> - A Survey123 feature service with image attachments. A [sample feature service](https://pm.maps.arcgis.com/home/item.html?id=1a4a4e91484d4175b340b7f8b9a1dfa3) is publicly available for this blog. You are welcome to submit a survey.
 > - An AGOL Organizational account. (optional)
 > - Configure a Web Connection of your AGOL account in the Tools Options menu of the Workbench app. (optional)
 > - Identify the destination folder for your attachments (e.g. c:\temp\jpeg)
