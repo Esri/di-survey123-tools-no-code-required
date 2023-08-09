@@ -47,25 +47,25 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
 7. Now that your feature type is on your canvass, we will configure it for our transformation.
 
-        Click on the cog wheel of the feature type to open its properties dialog.
+        a. Click on the cog wheel of the feature type to open its properties dialog.
 
-        On the Parameters tab, select Yes on the Include Attachments drop-down, as shown in the picture below.
+        b. On the Parameters tab, select Yes on the Include Attachments drop-down, as shown in the picture below.
 
-        On the Format Attributes tab, check if all attributes that begin with arcgisonline_ are exposed. If you prefer, use the filter box at the bottom and Select All. 
+        c. On the Format Attributes tab, check if all attributes that begin with arcgisonline_ are exposed. If you prefer, use the filter box at the bottom and Select All. 
 
-        This feature type is now configured. If you kept the template's original reader, you can delete that now.
+        d. This feature type is now configured. If you kept the template's original reader, you can delete that now.
 
 ![image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/13187b27-ab0c-4a0c-ae08-d4c2b6278af6)
 
 8. Now we will configure the output in the AttributeFilterWriter.
 
-        Click on the cog wheel to open its parameters dialog.
+        a. Click on the cog wheel to open its parameters dialog.
 
-        On the Target Filename parameter textbox, type over the string "c:\temp\jpeg\" with your selected destination.
+        b. On the Target Filename parameter textbox, type "c:\temp\jpeg\" with your desired destination. Keep the attribute ***@value(name}*** string unchanged.
 
-        Check if the Target File Encoding parameter is Binary(fme-binary). 
+        c. Check if the Target File Encoding parameter is Binary(fme-binary). 
 
-        Click OK.
+        d. Click OK.
 
 9. We will leave the Inspector unchanged for this workflow.
 
@@ -77,7 +77,7 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
 * ArcGIS Pro 2.9 or higher
 * Data Interoperability for ArcGIS Pro 2.9 or higher
-* [Survey123 form used](https://pm.maps.arcgis.com/home/item.html?id=1a4a4e91484d4175b340b7f8b9a1dfa3) for the sample solution or you own service with collected data and attachments. 
+* [Survey123 form used](https://pm.maps.arcgis.com/home/item.html?id=1a4a4e91484d4175b340b7f8b9a1dfa3) for the blog or you own service with collected data and attachments. 
 
 
 ## Resources
