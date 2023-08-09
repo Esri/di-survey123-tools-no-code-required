@@ -2,29 +2,41 @@
 
 ## Purpose:
 
-This repo is to show tools built with Data Interoperability for most common patterns of managing data collected with Survey123 forms. <br/>
+This repo is to show no-code solutions built with Data Interoperability for most common patterns of managing data collected with Survey123 forms. <br/>
+
+Survey123 is a very popular app in the ArcGIS Platform. It's easy to deploy and is used to collect data because of its rich features. However, there are user scenarios where collected data needs to be exported to other systems or even for archiving purposes. Thus, it is quite common for data owners to export their survey data and transform the data  according to their business needs. Often, their surveys have attachments and media collected by the field user. <br/>
+
+A python solution is available [Export Task solution using python](https://github.com/Esri/Survey123-tools/blob/main/Export_survey_data_with_attachments/README.md) in this repo.  
 
 
-## Four ways to build DI tools
+## Use Cases:
+1. [Export Survey attachments into Windows folder](https://github.com/salvaleonrp/survey123-tools-no-code-required/tree/main/Use%20case%201%20-%20Export%20survey%20attachment%20to%20windows%20folder(Workbench))
+2.[Export Survey responses and attachment infomation into an Excel report](https://github.com/salvaleonrp/survey123-tools-no-code-required/tree/main/Use%20case%202%20-%20Export%20survey%20responses%20to%20Excel%20report%20(Workbench))
+3. Change detection workflow for responses and attachments - coming soon
+
+
+If you're new to Data Interoperability, please keep reading below.
+
+## Four ways to build DI solutions
 
 The solutions that will be published in this repo will be built using any of the following DI features. The feature to be used mostly depends on the persona of the tool user. The frequency of use would be another consideration. Other considerations include deployment with Pro, Enterprise or even safe Software's FME Server. 
 
-* Workbench file (FMW) - most data admin or data owners will build a tool using Data Interoperability's Workbench app, a cloned version to FME Desktop. The authored workbench file (FMW) can be stored in the file system and used without launching Pro, as long as the DI extension license is assigned to the user. A workbench file can also be executed through python or command line for automation purposes.
+* Workbench file (fmw) - most data admin or data owners will build a tool using Data Interoperability's Workbench app, a cloned version to FME Desktop. The authored workbench file (FMW) can be stored in the file system and used without launching Pro, as long as the DI extension license is assigned to the user. A workbench file can also be executed through python or command line for automation purposes.
 
-* Spatial ETL Tool (GP Tool) - this feature is launched from Pro. It starts as a GP tool, and authored from the Workbench app. This feature is best for tools that are frequently run by end users or through Pro's scheduled task.
+* Spatial ETL Tool (atbx) - this feature is launched from Pro. It starts as a GP tool, and authored from the Workbench app. This feature is best for tools that are frequently run by end users or through Pro's scheduled task.
 
 * Web Tools (GP Service) This feature is a published Spatial ETL tool run from Pro or a browser. Since it's a GP service, its RES end point can be tightly integrated with web apps. This tool is best for end users and inegration with other web solutions. Currently, there are no triggers or scheduling for web tool solutions.
 
-* Quick Tools (DI Toolbox) This feature is for simple workflow that uses the most common ESRI data formats.  There ae two quick tools, one tool for Export and another one for Import.  This feature is very limited in use and capability.
+* Quick Tools (GP toolset) This feature is for simple workflow that uses the most common ESRI data formats.  There ae two quick tools, one tool for Export and another one for Import.  This feature is very limited in use and capability.
 
 
 
 ## Requirements
 
-* ArcGIS Pro 2.9 or  higher
-* ArcGIS Server 10.9.1
-* ArcGIS Data Interoperability for Pro 2.9 or higher
-* ArcGIS Data Interoperability for Server 10.9.1 or higher
+* ArcGIS Pro 3.1 or  higher
+* ArcGIS Server 11.1.0 or higher (optional)
+* ArcGIS Data Interoperability for Pro 3.1 or higher
+* ArcGIS Data Interoperability for Server 11.1.0 or higher (optional)
 
 ***Warning:*** When viewing the workbench or FMW file in  github it appears as a text file. Do not modify or edit this text file unless you are absolutely sure that you are very comfortable in making the changes. 
 
