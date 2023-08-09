@@ -97,7 +97,7 @@ Below are links to related resources to this workflow.
 ## Issue/s
 Find a bug or want to request a new feature?  Please let us know by submitting an issue.
 
-1. In the Schema list attribute of the feature service as shown in Instructions, item 5 above, notice that the arcgisonline_attachment{}.globalid attribute is exposed but the translation does not display it. This is a known bug and is reported in FMEENGINE-74184. For reference see the comments section of this [Question]([url](https://community.safe.com/s/question/0D54Q00009PK7llSAD/read-arcgis-online-attachments-and-maintain-globalids-for-both-features-and-attachments)) found in the Safe Community web page.
+1. In the Schema list attribute of the feature service as shown in the screenshot in item 4 of Instructions above, notice that the arcgisonline_attachment{}.globalid attribute is exposed but the downstream translation does not display it. This is a known bug and is reported as FMEENGINE-74184. For reference see the comments section of this [Question]([url](https://community.safe.com/s/question/0D54Q00009PK7llSAD/read-arcgis-online-attachments-and-maintain-globalids-for-both-features-and-attachments)) found in the Safe Community web page.
 
 
 
@@ -106,7 +106,7 @@ Find a bug or want to request a new feature?  Please let us know by submitting a
 Esri welcomes contributions from anyone and everyone. Please see our [guidelines for contributing](https://github.com/esri/contributing).
 
 ## Licensing
-Copyright 2022 Esri
+Copyright © 2023 Esri.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -122,5 +122,5 @@ limitations under the License.
 
 A copy of the license is available in the repository's [license.txt](https://github.com/salvaleonrp/di-data-driven-electric-utility-export-subnetwork/blob/main/license.txt) file.
 
-[](Esri Tags: ArcGIS Data Interoperability for Pro)
-[](Esri Tags: Survey123)
+(Esri Tags: ArcGIS Data Interoperability for Pro)<br/>
+(Esri Tags: Survey123)
