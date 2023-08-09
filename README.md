@@ -15,7 +15,8 @@ A python solution is available [Export Task solution using python](https://githu
 3. Change detection workflow for responses and attachments - coming soon
 
 
-## New to Data Interoperability, please keep reading below.
+> [!NOTE]
+> New to Data Interoperability, please keep reading below.
 
 ### Four ways to build DI solutions
 
@@ -30,15 +31,8 @@ The solutions that will be published in this repo will be built using any of the
 * Quick Tools (GP toolset) This feature is for simple workflow that uses the most common ESRI data formats.  There ae two quick tools, one tool for Export and another one for Import.  This feature is very limited in use and capability.
 
 
-
-## Requirements
-
-* ArcGIS Pro 3.1 or  higher
-* ArcGIS Server 11.1.0 or higher (optional)
-* ArcGIS Data Interoperability for Pro 3.1 or higher
-* ArcGIS Data Interoperability for Server 11.1.0 or higher (optional)
-
-***Warning:*** When viewing the workbench or FMW file in  github it appears as a text file. Do not modify or edit this text file unless you are absolutely sure that you are very comfortable in making the changes. 
+> [!WARNING] 
+> Since the FMW file in git appears as a text file, they will always be made available as zipped fmw or fmwt format.  
 
 ## Resources
 

@@ -79,7 +79,7 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
 ## Requirements
 
-* ArcGIS Pro 2.9 or higher
+* ArcGIS Pro 3.2 or higher
 * Data Interoperability for ArcGIS Pro 2.9 or higher
 * [Survey123 form used](https://pm.maps.arcgis.com/home/item.html?id=1a4a4e91484d4175b340b7f8b9a1dfa3) for the sample solution or you own service with collected data and attachments. 
 
