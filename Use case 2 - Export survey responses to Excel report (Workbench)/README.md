@@ -15,7 +15,7 @@ The image attachment is stored as a blob on the attribute field ***data*** which
 
 Below is a screenshot of the solution. <br/>
 
-![image](https://user-images.githubusercontent.com/87094963/166831682-d5e9968d-14c1-4d3a-b2e6-b020d0150970.png)
+[image](https://user-images.githubusercontent.com/87094963/166831682-d5e9968d-14c1-4d3a-b2e6-b020d0150970.png)
 
 The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/inspeector.htm) transformer is a placeholder for any other output formats that the user may want to add to the workspace, whether its an Excel writer, a geodatabase, Enterprise or AGOL feature layers, JSON or any of [400 plus supported formats of Data Interoperabilty](https://pro.arcgis.com/en/pro-app/latest/help/data/data-interoperability/supported-formats-with-the-data-interoperability-extension.htm).<br/>
 
@@ -45,7 +45,7 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
         Click Ok twice.
 
-![image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/b56b419e-3ee9-4667-9319-3edacf2ed54f)
+[image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/b56b419e-3ee9-4667-9319-3edacf2ed54f.png)
 
 6. Connect the AGOL layer feature type to the List Exploder
 
@@ -59,7 +59,7 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
         This feature type is now configured. If you kept the template's original reader, you can delete that now.
 
-![image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/13187b27-ab0c-4a0c-ae08-d4c2b6278af6)
+[image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/13187b27-ab0c-4a0c-ae08-d4c2b6278af6.png)
 
 8. Now we will configure the output in the AttributeFilterWriter.
 
