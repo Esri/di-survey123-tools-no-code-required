@@ -61,7 +61,7 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
         a. Click on the cog wheel to open its parameters dialog.
 
-        b. On the Target Filename parameter textbox, type "c:\temp\jpeg\" with your desired destination. Keep the attribute ***@value(name}*** string unchanged.
+        b. On the Target Filename parameter textbox, type "c:\temp\jpeg\" with your desired destination. Keep the attribute @value(name} string unchanged.
 
         c. Check if the Target File Encoding parameter is Binary(fme-binary). 
 
