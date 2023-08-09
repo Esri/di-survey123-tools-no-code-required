@@ -1,7 +1,7 @@
-# Exporting Survey123 attachment to Windows folder (Workbench)
+# Exporting Survey123 attachment to Windows folder (FMW)
 
 ## Solution details
-This is a no-code solution to export attachments from a feature service to a windows folder. It reads all the features of a Survey123 feature layer using the [AGOL Feature Service layer reader](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_ReadersWriters/arcgisonlinefeatures/arcgisonlinefeatures.htm). It exposes the feature attachments as a list and explodes this list into attachment features linked to the original survey's ***arcgisonline_globalid*** using the [ListExploder](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/listexploder.htm) transformer. <br/>
+This workspace or fmw file is a no-code solution to export attachments from a feature service to a windows folder. It reads all the features of a Survey123 feature layer using the [AGOL Feature Service layer reader](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_ReadersWriters/arcgisonlinefeatures/arcgisonlinefeatures.htm). It exposes the feature attachments as a list and explodes this list into attachment features matched with the original survey's ***arcgisonline_globalid*** using the [ListExploder](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/listexploder.htm) transformer. <br/>
 
 The attribute table of the attachment features is read by the AGOL feature reader and looks similar to the screenshot below. </br>
 
