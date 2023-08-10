@@ -24,54 +24,28 @@ Below is a screenshot of the solution. <br/>
 ## Instructions
 
 ### Bookmark 1
-1. Download and unzip the S123DITool_ExportSurveyToExcel.zip file from this repo folder.
-2. Delete the AGOL reader. 
-3. On your canvass begin typing AGOL and select the ESRI ArcGIS Online (AGOL) Feature Service Reader.
-4. You will be prompted with the Add reader dialog.
+1. Download and unzip the S123DITool_ExportSurveyToExcel.zip file from this repo folder and open the fmw file in the Wokbench app.
+2. Delete the ArcGIS Server feature service reader. 
+3. Copy the service URL from the Portal item
+        a. Click on this [portal item](https://pm.maps.arcgis.com/home/item.html?id=1a4a4e91484d4175b340b7f8b9a1dfa3)
 
-        a. Click on Parameters, select the Web Connection that you created above. (Use None for authentication type if you're using the blog sample)
+        b. Scroll down to layers and click on "Images and Annotations" link.
 
-        b. Click on the ellipsis next to the Feature service textbox, then browse to your feature service, select your service and clck OK.
+        ![Images and Annotations](image-1.png)
 
-        c. Back to the Feature Service parameter dialog, click on Layers ellipsis and select your Survey123 form's feature layer.
+        c. The feature service item opens in a new browser. Scroll down to the botom right of the page and copy the Service URL of the service.
+        ![Service URL](image-2.png)
 
-        d. Click on Schema Attributes and select the Attributes to Expose as shown in the picture below.
+3. Configure he AttributeCreator as shown.
 
-        (Optional) Select Yes on the Resolve Domains drop-down if you used the Choice questions in your survey.
+![AttributeCreator](image-3.png)
 
-        e. Click Ok twice.
+4. Configure the AttributeFileCreator
 
-[image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/b56b419e-3ee9-4667-9319-3edacf2ed54f.png)
+![Alt text](image-4.png)
 
-6. Connect the AGOL layer feature type to the List Exploder
+5. Now we're ready to building the Excel report.
 
-7. Now that your feature type is on your canvass, we will configure it for our transformation.
-
-        a. Click on the cog wheel of the feature type to open its properties dialog.
-
-        b. On the Parameters tab, select Yes on the Include Attachments drop-down, as shown in the picture below.
-
-        c. On the Format Attributes tab, check if all attributes that begin with arcgisonline_ are exposed. If you prefer, use the filter box at the bottom and Select All. 
-
-        d. This feature type is now configured. If you kept the template's original reader, you can delete that now.
-
-[image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/13187b27-ab0c-4a0c-ae08-d4c2b6278af6.png)
-
-8. Now we will configure the output in the AttributeFilterWriter.
-
-        a. Click on the cog wheel to open its parameters dialog.
-
-        b. On the Target Filename parameter textbox, type "c:\temp\jpeg\" with your desired destination. Keep the attribute @value(name} string unchanged.
-
-        c. Check if the Target File Encoding parameter is Binary(fme-binary). 
-
-        d. Click OK.
-
-9. We will leave the Inspector unchanged for this workflow.
-
-10. With File Explorer open your target folder.
-
-11. Click Run, and watch as your attachments are added into the target folder.
 
 ### Bookmark 2
 1. Download and unzip the S123DITool_ExportSurveyToExcel.zip file from this repo folder.
