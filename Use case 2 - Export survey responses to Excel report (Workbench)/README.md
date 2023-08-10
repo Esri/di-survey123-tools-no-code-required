@@ -3,7 +3,7 @@
 ## Solution details
 The zipped workspace or fmw file is a no-code solution to export attachments from a feature service to an Excel workbook. It reads all the features of a Survey123 feature layer using the [AGOL Server Feature Service reader](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_ReadersWriters/arcgisonlinefeatures/arcgisfeatures.htm). 
 
-This solution is an enhancement of Use case 1 [Use Case 1](/Use%20case%201%20-%20Export%20survey%20attachment%20to%20windows%20folder(Workbench)/README.md).
+This solution is an enhancement of [Use Case 1](/Use%20case%201%20-%20Export%20survey%20attachment%20to%20windows%20folder(Workbench)/README.md).
 
 An organization and documentation feature called Bookmarks. There's one Bookmark that contain the solution to Use Case 1. A second bookmark added to the canvass to complete the solution.
 
@@ -23,22 +23,23 @@ Below is a screenshot of the solution. <br/>
 
 ## Instructions
 
+# Bookmark 1
 1. Download and unzip the S123DITool_ExportSurveyToExcel.zip file from this repo folder.
-2. Delete the AGOL reader. If you are new to Data Interop, you can disable the connector between the reader and the List Exploder initially.
+2. Delete the AGOL reader. 
 3. On your canvass begin typing AGOL and select the ESRI ArcGIS Online (AGOL) Feature Service Reader.
 4. You will be prompted with the Add reader dialog.
 
-        Click on Parameters, select the Web Connection that you created above.
+        a. Click on Parameters, select the Web Connection that you created above. (Use None for authentication type if you're using the blog sample)
 
-        Click on the ellipsis next to the Feature service textbox, then browse to your feature service, select your service and clck OK.
+        b. Click on the ellipsis next to the Feature service textbox, then browse to your feature service, select your service and clck OK.
 
-        Back to the Feature Service parameter dialog, click on Layers ellipsis and select your Survey123 form's feature layer.
+        c. Back to the Feature Service parameter dialog, click on Layers ellipsis and select your Survey123 form's feature layer.
 
-        Click on Schema Attributes and select the Attributes to Expose as shown in the picture below.
+        d. Click on Schema Attributes and select the Attributes to Expose as shown in the picture below.
 
         (Optional) Select Yes on the Resolve Domains drop-down if you used the Choice questions in your survey.
 
-        Click Ok twice.
+        e. Click Ok twice.
 
 [image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/b56b419e-3ee9-4667-9319-3edacf2ed54f.png)
 
@@ -46,25 +47,25 @@ Below is a screenshot of the solution. <br/>
 
 7. Now that your feature type is on your canvass, we will configure it for our transformation.
 
-        Click on the cog wheel of the feature type to open its properties dialog.
+        a. Click on the cog wheel of the feature type to open its properties dialog.
 
-        On the Parameters tab, select Yes on the Include Attachments drop-down, as shown in the picture below.
+        b. On the Parameters tab, select Yes on the Include Attachments drop-down, as shown in the picture below.
 
-        On the Format Attributes tab, check if all attributes that begin with arcgisonline_ are exposed. If you prefer, use the filter box at the bottom and Select All. 
+        c. On the Format Attributes tab, check if all attributes that begin with arcgisonline_ are exposed. If you prefer, use the filter box at the bottom and Select All. 
 
-        This feature type is now configured. If you kept the template's original reader, you can delete that now.
+        d. This feature type is now configured. If you kept the template's original reader, you can delete that now.
 
 [image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/13187b27-ab0c-4a0c-ae08-d4c2b6278af6.png)
 
 8. Now we will configure the output in the AttributeFilterWriter.
 
-        Click on the cog wheel to open its parameters dialog.
+        a. Click on the cog wheel to open its parameters dialog.
 
-        On the Target Filename parameter textbox, type over the string "c:\temp\jpeg\" with your selected destination.
+        b. On the Target Filename parameter textbox, type "c:\temp\jpeg\" with your desired destination. Keep the attribute @value(name} string unchanged.
 
-        Check if the Target File Encoding parameter is Binary(fme-binary). 
+        c. Check if the Target File Encoding parameter is Binary(fme-binary). 
 
-        Click OK.
+        d. Click OK.
 
 9. We will leave the Inspector unchanged for this workflow.
 
