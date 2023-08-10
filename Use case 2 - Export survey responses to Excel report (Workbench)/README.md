@@ -48,8 +48,10 @@ Below is a screenshot of the solution. <br/>
 
 
 ### Bookmark 2
-1. Download and unzip the S123DITool_ExportSurveyToExcel.zip file from this repo folder.
-2. Delete the AGOL reader. 
+1. Configure AttributeManager as shown.
+![Alt text](image-5.png)
+2. Configure AttributeManager_1 as shown.
+![AttributeManager_1](image-6.png)
 3. On your canvass begin typing AGOL and select the ESRI ArcGIS Online (AGOL) Feature Service Reader.
 4. You will be prompted with the Add reader dialog.
 
