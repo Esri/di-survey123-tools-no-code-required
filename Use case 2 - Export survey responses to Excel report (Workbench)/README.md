@@ -36,24 +36,27 @@ Below is a screenshot of the solution. <br/>
         c. The feature service item opens in a new browser. Scroll down to the botom right of the page and copy the Service URL of the service.
         ![Service URL](image-2.png)
 
-3. Configure he AttributeCreator as shown.
+3. Configure the AttributeCreator as shown.
 
 ![AttributeCreator](image-3.png)
 
-4. Configure the AttributeFileCreator
+4. Configure the AttributeFileCreator  as shown.
 
 ![Alt text](image-4.png)
 
-5. Now we're ready to building the Excel report.
+5. Now we're ready to build the Excel report.
 
 
 ### Bookmark 2
 1. Configure AttributeManager as shown.
+
 ![Alt text](image-5.png)
+
 2. Configure AttributeManager_1 as shown.
+
 ![AttributeManager_1](image-6.png)
-3. On your canvass begin typing AGOL and select the ESRI ArcGIS Online (AGOL) Feature Service Reader.
-4. You will be prompted with the Add reader dialog.
+
+3. Add the Excel format writer to your canvass.
 
         a. Click on Parameters, select the Web Connection that you created above. (Use None for authentication type if you're using the blog sample)
 
