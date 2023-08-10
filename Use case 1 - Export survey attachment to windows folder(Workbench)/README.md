@@ -25,21 +25,15 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
 ## Instructions
 
-1. Download and unzip the S123DITool_ExportAttachments.zip  file from this repo folder and open the fmw file by double clicking the zipped file on your Doenloads folder. This will launch the Wokbench app and open the workspace.
+1. Download and unzip the S123DITool_ExportAttachments.zip  file from this repo folder and open the fmw file by double clicking the zipped file on your Downloads folder. This will launch the Wokbench app and open the workspace.
 2. On your canvass begin typing AGOL and select the ESRI ArcGIS Online (AGOL) Feature Service Reader.
 3. You will be prompted with the Add reader dialog.
-
-        a. Click on Parameters, select the Web Connection that you created above. (Use None for authentication type if you're using the blog sample)
-
-        b. Click on the ellipsis next to the Feature service textbox, then browse to your feature service, select your service and clck OK.
-
-        c. Back to the Feature Service parameter dialog, click on Layers ellipsis and select your Survey123 form's feature layer.
-
-        d. Click on Schema Attributes and select the Attributes to Expose as shown in the picture below.
-
-        (Optional) Select Yes on the Resolve Domains drop-down if you used the Choice questions in your survey.
-
-        e. Click Ok twice.
+   a. Click on Parameters, select the Web Connection that you created above. (Use None for authentication type if you're using the blog sample)
+   b. Click on the ellipsis next to the Feature service textbox, then browse to your feature service, select your service and clck OK.
+   c. Back to the Feature Service parameter dialog, click on Layers ellipsis and select your Survey123 form's feature layer.
+   d. Click on Schema Attributes and select the Attributes to Expose as shown in the picture below.
+   (Optional) Select Yes on the Resolve Domains drop-down if you used the Choice questions in your survey.
+   e. Click Ok twice.
 
 ![image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/b56b419e-3ee9-4667-9319-3edacf2ed54f)
 
