@@ -80,7 +80,7 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 * [Survey123 form used](https://pm.maps.arcgis.com/home/item.html?id=1a4a4e91484d4175b340b7f8b9a1dfa3) for the blog or you own service with collected data and attachments. 
 
 
-## Resources
+## Resources for Survey123 Workflows using Data Interoperability
 
 Below are links to related resources to this workflow.
 
