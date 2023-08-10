@@ -1,34 +1,29 @@
 # Exporting Survey123 responses to Excel report (FMW)
 
-This workspace or fmw file is a no-code solution to export Survey123 responses into an Excel spreasheet. It reads all the features of a Survey123 feature layer using the [ArcGIS Server Feature Service reader](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_ReadersWriters/arcgisonlinefeatures/arcgisfeatures.htm). It exposes the feature attachments as a list and explodes this list into attachment features matched with the original survey's ***arcgisonline_globalid*** using the [ListExploder](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/listexploder.htm) transformer. <br/>
-
-The attribute table of the attachment features is read by the AGOL feature reader and looks similar to the screenshot below. </br>
-
 ## Solution details
-The workbench file created for this workflow is authored in its simplest form. It reads all the features of a Survey123 feature layer using the [AGOL Feature Service layer reader](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_ReadersWriters/arcgisonlinefeatures/arcgisonlinefeatures.htm). It exposes the feature attachments as a list and explodes this list into attachment features linked to the original survey's ***arcgisonline_globalid*** using the [ListExploder](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/listexploder.htm) transformer. <br/>
+The zipped workspace or fmw file is a no-code solution to export attachments from a feature service to an Excel workbook. It reads all the features of a Survey123 feature layer using the [AGOL Server Feature Service reader](https://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_ReadersWriters/arcgisonlinefeatures/arcgisfeatures.htm). 
 
-The attribute table of the attachment features is read by the AGOL feature reader and looks similar to the screenshot below. </br>
+This solution is an enhancement of Use case 1 [Use Case 1](/Use%20case%201%20-%20Export%20survey%20attachment%20to%20windows%20folder(Workbench)/README.md).
 
-![attribute_table](https://user-images.githubusercontent.com/87094963/166913879-9e67bd3c-8183-4a1d-9d0f-31f7259ecdd3.png)
-
-The image attachment is stored as a blob on the attribute field ***data*** which is one of the columns of the survey data attachment table. Once exploded, the blob type field value is written as a JPEG file by the [AtributeFileWriter](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/attributefilewriter.htm) transformer, using the ***name*** attribute value as the jpeg filename <br/>
+An organization and documentation feature called Bookmarks. There's one Bookmark that contain the solution to Use Case 1. A second bookmark added to the canvass to complete the solution.
 
 Below is a screenshot of the solution. <br/>
 
-[image](https://user-images.githubusercontent.com/87094963/166831682-d5e9968d-14c1-4d3a-b2e6-b020d0150970.png)
+![Alt text](image.png)
 
-The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Transformers/Transformers/inspeector.htm) transformer is a placeholder for any other output formats that the user may want to add to the workspace, whether its an Excel writer, a geodatabase, Enterprise or AGOL feature layers, JSON or any of [400 plus supported formats of Data Interoperabilty](https://pro.arcgis.com/en/pro-app/latest/help/data/data-interoperability/supported-formats-with-the-data-interoperability-extension.htm).<br/>
+<br/>
 
+
+> [!NOTE] 
+> **Prerequisites**
+> - A Survey123 feature service with image attachments. A [sample feature service](https://pm.maps.arcgis.com/home/item.html?id=1a4a4e91484d4175b340b7f8b9a1dfa3) is publicly available for this blog. You are welcome to submit a survey.
+> - An AGOL Organizational account. (optional)
+> - Configure a Web Connection of your AGOL account in the Tools Options menu of the Workbench app. (optional)
+> - Identify the destination folder for your attachments (e.g. c:\temp\jpeg)
 
 ## Instructions
 
-    Prerequisites:
-    - A Survey123 survey and collected data with image attachments and annotations. For this blog the Survey123 Connect sample Images and Annotation survey was used. A link to the sample survey used is shared in the references below.  You are welcome to add to the survey.
-    - An AGOL Organizational account.
-    - Configure a Web Connection of your AGOL account in the Tools Options of Data Interoperability. 
-    - Identify the destination folder for your attachments
-
-1. Download and unzip the S123DITool_ExportAttachments.zip  file from this repo folder.
+1. Download and unzip the S123DITool_ExportSurveyToExcel.zip file from this repo folder.
 2. Delete the AGOL reader. If you are new to Data Interop, you can disable the connector between the reader and the List Exploder initially.
 3. On your canvass begin typing AGOL and select the ESRI ArcGIS Online (AGOL) Feature Service Reader.
 4. You will be prompted with the Add reader dialog.
@@ -79,9 +74,10 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
 ## Requirements
 
-* ArcGIS Pro 3.2 or higher
-* Data Interoperability for ArcGIS Pro 2.9 or higher
-* [Survey123 form used](https://pm.maps.arcgis.com/home/item.html?id=1a4a4e91484d4175b340b7f8b9a1dfa3) for the sample solution or your own AGOL/Enterprise feature service with collected data and attachments. 
+* ArcGIS Pro 3.1 or higher
+* Data Interoperability for ArcGIS Pro 3.1 or higher
+* [Survey123 form used](https://pm.maps.arcgis.com/home/item.html?id=1a4a4e91484d4175b340b7f8b9a1dfa3) for the blog or you own service with collected data and attachments. 
+
 
 
 ## Resources
