@@ -47,25 +47,25 @@ The [Inspector](http://docs.safe.com/fme/html/FME_Desktop_Documentation/FME_Tran
 
 5. Now that the new feature type is on your canvass, we will configure it for our transformation.
 
-        a. Click on the cog wheel of the feature type to open its properties dialog.
-
-        b. On the Parameters tab, select Yes on the Include Attachments drop-down, as shown in the picture below.
-
-        c. On the Format Attributes tab, check if all attributes that begin with arcgisonline_ are exposed. If you prefer, use the filter box at the bottom and Select All. 
-
-        d. This feature type is now configured. If you kept the template's original reader, you can delete that now.
+   a. Click on the cog wheel of the feature type to open its properties dialog.
+   
+   b. On the Parameters tab, select Yes on the Include Attachments drop-down, as shown in the picture below.
+   
+   c. On the Format Attributes tab, check if all attributes that begin with arcgisonline_ are exposed. If you prefer, use the filter box at the bottom and Select All. 
+   
+   d. This feature type is now configured. If you kept the template's original reader, you can delete that now.
 
 ![image](https://github.com/salvaleonrp/survey123-tools-no-code-required/assets/87094963/13187b27-ab0c-4a0c-ae08-d4c2b6278af6)
 
 6. Now we will configure the output in the AttributeFilterWriter.
 
-        a. Click on the cog wheel to open its parameters dialog.
+   a. Click on the cog wheel to open its parameters dialog.
 
-        b. On the Target Filename parameter textbox, type "c:\temp\jpeg\" with your desired destination. Keep the attribute @value(name} string unchanged.
-
-        c. Check if the Target File Encoding parameter is Binary(fme-binary). 
-
-        d. Click OK.
+   b. On the Target Filename parameter textbox, type "c:\temp\jpeg\" with your desired destination. Keep the attribute @value(name} string unchanged.
+   
+   c. Check if the Target File Encoding parameter is Binary(fme-binary). 
+   
+   d. Click OK.
 
 7. Leave the Inspector unchanged for this workflow.
 
