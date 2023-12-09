@@ -6,7 +6,7 @@ This repo is to show no-code solutions built with Data Interoperability for most
 
 Survey123 is a very popular app in the ArcGIS Platform. It's easy to deploy and is used to collect data because of its rich features. However, there are user scenarios where collected data needs to be exported to other systems or even for archiving purposes. Thus, it is quite common for data owners to export their survey data and transform the data  according to their business needs. Often, their surveys have attachments and media collected by the field user. <br/>
 
-A code based solution called [Export Task solution using python](https://github.com/Esri/Survey123-tools/blob/main/Export_survey_data_with_attachments/README.md) is also available in another Git repo.  
+A code based solution called [Export Task solution using python](https://github.com/Esri/Survey123-tools/blob/main/Export_survey_data_with_attachments/README.md) is also available in another Git repo.  For backup of all feature services, this [How To solution](https://support.esri.com/en-us/knowledge-base/how-to-back-up-hosted-content-by-looping-through-and-do-000022524) using Python would also be valuable references. 
 
 
 ## Use Cases:
