@@ -1,10 +1,10 @@
 # Backup Survey123 feature service with attachments into a mobile geodatabase (FMW)
 
-[!DISCLAIMER]
-Out of the box solutions - note that Pro and the REST API have available features that allow the user to back up a feature service and layer including attachments. These out of the box solution are the following:
-1. Pro [Export Features GP tool ](https://pro.arcgis.com/en/pro-app/latest/tool-reference/conversion/export-features.htm#ESRI_GPENVIRONMENT_87FADD67360F4DBBBDCFDADBBC8D647E)
-2. Online/Enterprise REST Services [Create a Replica feature service REST endpoint](https://developers.arcgis.com/rest/services-reference/enterprise/create-replica.htm)
-3. Online/Enterprise Content Overview [Export data from hosted feature layer](https://doc.arcgis.com/en/arcgis-online/manage-data/use-hosted-layers.htm#GUID-47A1D795-B330-45D7-89F7-9203A99E6924)
+> [!NOTE] 
+> Out of the box solutions - note that Pro and the REST API have available features that allow the user to back up a feature service and layer including attachments. These  solutions are:
+> 1. Pro [Export Features GP tool ](https://pro.arcgis.com/en/pro-app/latest/tool-reference/conversion/export-features.htm#ESRI_GPENVIRONMENT_87FADD67360F4DBBBDCFDADBBC8D647E)
+> 2. Online/Enterprise REST Services [Create a Replica feature service REST endpoint](https://developers.arcgis.com/rest/services-reference/enterprise/create-replica.htm)
+> 3. Online/Enterprise Content Overview [Export data from hosted feature layer](https://doc.arcgis.com/en/arcgis-online/manage-data/use-hosted-layers.htm#GUID-47A1D795-B330-45D7-89F7-9203A99E6924)
 
 
 
