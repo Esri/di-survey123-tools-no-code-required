@@ -1,1 +1,74 @@
+Backup your Survey123 feature service with attachments to a mobile geodatabase (FMW)
+Solution details
+The zipped workspace or fmw file is a no-code solution to export attachments from a feature service to a windows folder. It reads all the features of a Survey123 feature layer using the AGOL Feature Service layer reader. It exposes the feature attachments as a list and explodes this list into attachment features matched with the original survey's arcgisonline_globalid using the ListExploder transformer.
 
+The attribute table of the attachment features is read by the AGOL feature reader and looks similar to the screenshot below.
+
+attachment_table
+
+The picture from the survey is stored as a blob on the attribute field data which is one of the columns in the attachment table. The blob type field value is then written as a JPEG file by the AtributeFileWriter transformer, using the name attribute value as the jpeg filename.
+
+Below is a screenshot of the solution.
+
+image
+
+The Inspector transformer is a placeholder for any other output formats that the user may want to add to the workspace later, whether its an Excel writer, HTML table, a geodatabase, Enterprise or AGOL feature layers, JSON or any of 400 plus supported formats of Data Interoperabilty.
+
+Note
+
+Prerequisites
+
+A Survey123 feature service with image attachments. A sample feature service is publicly available for this blog. You are welcome to submit a survey.
+An AGOL Organizational account. (optional-for services shared to Everyone)
+Configure a Web Connection of your AGOL account in the Tools Options menu of the Workbench app. (optional-for services shared to Everyone)
+Identify the destination folder for your attachments (e.g. c:\temp\jpeg)
+Instructions
+Download and unzip the S123DITool_ExportAttachments.zip file from this repo folder and open the fmw file by double clicking the zipped file on your Downloads folder. This will launch the Wokbench app and open the workspace.
+
+On your canvass begin typing AGOL and select the ESRI ArcGIS Online (AGOL) Feature Service Reader.
+
+You will be prompted with the Add reader dialog.
+
+a. Click on Parameters, select the Web Connection that you created above. (Use None for authentication type if you're using the blog sample)
+
+b. Click on the ellipsis next to the Feature service textbox, then browse to your feature service, select your service and clck OK.
+
+c. Back to the Feature Service parameter dialog, click on Layers ellipsis and select your Survey123 form's feature layer.
+
+d. Click on Schema Attributes and select the Attributes to Expose as shown in the picture below.
+
+(Optional) Select Yes on the Resolve Domains drop-down if you used the Choice questions in your survey.
+
+e. Click Ok twice.
+
+image
+
+Connect the AGOL layer feature type to the List Exploder. Once connected, you can delete the original AGOL reader feature type in your canvass.
+
+Now that the new feature type is on your canvass, we will configure it for our transformation.
+
+a. Click on the cog wheel of the feature type to open its properties dialog.
+
+b. On the Parameters tab, select Yes on the Include Attachments drop-down, as shown in the picture below.
+
+c. On the Format Attributes tab, check if all attributes that begin with arcgisonline_ are exposed. If you prefer, use the filter box at the bottom and Select All.
+
+d. This feature type is now configured. If you kept the template's original reader, you can delete that now.
+
+image
+
+Now we will configure the output in the AttributeFilterWriter.
+
+a. Click on the cog wheel to open its parameters dialog.
+
+b. On the Target Filename parameter textbox, type "c:\temp\jpeg" with your desired destination. Keep the attribute @value(name} string unchanged.
+
+c. Check if the Target File Encoding parameter is Binary(fme-binary).
+
+d. Click OK.
+
+Leave the Inspector unchanged for this workflow.
+
+Using Windows Explorer navigate to your destination folder so you can see the photos written when you run the workspace in the final step.
+
+Click Run, and watch as your attachments are written into the target folder.
